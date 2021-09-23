@@ -1,0 +1,19 @@
+$blue: #2784C6;
+$spacing: 15px;
+
+%button {
+    background-color: $blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: $spacing;
+}
+.input {
+    padding: $spacing;
+    input {
+
+    } 
+    button {
+        @extend %button;
+    }
+}
