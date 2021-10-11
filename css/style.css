@@ -6,6 +6,15 @@
   border-radius: 15px;
 }
 
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 15px;
+}
+
 .input {
   padding: 15px;
 }

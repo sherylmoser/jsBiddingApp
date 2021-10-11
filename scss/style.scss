@@ -8,6 +8,13 @@ $spacing: 15px;
     padding: 5px 10px;
     border-radius: $spacing;
 }
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+h2 {
+    text-align: center;
+    margin-top: $spacing;
+}
 .input {
     padding: $spacing;
     button {
@@ -17,7 +24,6 @@ $spacing: 15px;
 #arrayDisplay {
     width: 70%;
     margin: $spacing*2 auto;
-    // padding: $spacing;
     text-align: center;
     min-height: 250px;
     border: 1px solid #dadfea;
