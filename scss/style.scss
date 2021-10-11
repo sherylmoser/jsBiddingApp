@@ -10,10 +10,19 @@ $spacing: 15px;
 }
 .input {
     padding: $spacing;
-    input {
-
-    } 
     button {
         @extend %button;
     }
+}
+#arrayDisplay {
+    width: 70%;
+    margin: $spacing*2 auto;
+    // padding: $spacing;
+    text-align: center;
+    min-height: 250px;
+    border: 1px solid #dadfea;
+}
+.inputsDiv {
+    display: flex;
+    justify-content: center;
 }

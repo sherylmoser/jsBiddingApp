@@ -9,5 +9,17 @@
 .input {
   padding: 15px;
 }
+#arrayDisplay {
+  width: 70%;
+  margin: 30px auto;
+  text-align: center;
+  min-height: 250px;
+  border: 1px solid #dadfea;
+}
+
+.inputsDiv {
+  display: flex;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=style.css.map */
